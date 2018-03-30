@@ -1,7 +1,7 @@
 {
-  "name": "hexo-theme-cactus",
-  "version": "3.0.0",
-  "description": "A responsive, clean and simple theme for Hexo.",
+  "name": "mehrad-hexo-cactus",
+  "version": "3.0.1",
+  "description": "A responsive, clean and simple theme for Hexo. Based on github.com/probberechts/hexo-theme-cactus",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint --silent",
@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/probberechts/cactus-dark.git"
+    "url": "git+https://github.com/mehrad77/mehrad-hexo-cactus.git"
   },
   "keywords": [
     "Hexo",
     "Theme",
     "Cactus"
   ],
-  "author": "Pieter Robberechts",
+  "author": "Mehrad Rousta",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/probberechts/cactus-dark/issues"
+    "url": "https://github.com/mehrad77/mehrad-hexo-cactus/issues"
   },
-  "homepage": "https://github.com/probberechts/cactus-dark#readme",
+  "homepage": "https://github.com/mehrad77/mehrad-hexo-cactus#readme",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",

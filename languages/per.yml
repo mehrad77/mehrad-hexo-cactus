@@ -1,0 +1,48 @@
+nav:
+  home: Xāne
+  about: Darbāre
+  articles: Nevešte‌hā
+  projects: Porože‌hā
+  search: Jostoju
+
+footer:
+  copyright: KopiLeft
+
+index:
+  find_me_on: Ma-rā peydā konid dar
+  enum_comma: ','
+  enum_and: va
+  articles: Nevešte‌hā
+  projects: Porože‌hā
+
+post:
+  desktop:
+    previous: Nevešte‌-ye pišin
+    next: Nevešte‌-ye ba’di
+    back_to_top: Bāzgašt be bālā
+    share: Ešterākgozāri
+  mobile:
+    menu: Fehrest
+    toc: Mohtavā
+    back_to_top: Bāla
+    share: Ešterākgozāri
+
+search:
+  search: Jostoju...
+  no_results: Natije‌-i yāft našod.
+
+pagination:
+  page: Barge %d az %d
+
+comments:
+  no_js: Lotfan barā-ye mošāhede didgāh‌hā, JavaScript morurgar-e xod rā fa’āl konid.
+
+
+
+
+
+
+
+
+
+

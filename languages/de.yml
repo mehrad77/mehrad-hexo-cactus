@@ -1,0 +1,38 @@
+nav:
+  home: Huis
+  about: Over mij
+  articles: De geschriften
+  projects: projecten
+  search: Zoeken
+
+footer:
+  copyright: CopyLeft
+
+index:
+  find_me_on: Vind me op
+  enum_comma: ','
+  enum_and: und
+  articles: De geschriften
+  projects: projecten
+
+post:
+  desktop:
+    previous: Vorige post
+    next: Volgend bericht
+    back_to_top: Terug naar de top
+    share: Deel bericht
+  mobile:
+    menu: Menu
+    toc: IHV
+    back_to_top: Top
+    share: Delen
+
+search:
+  search: Zoeken...
+  no_results: Geen resultaten gevonden.
+
+pagination:
+  page: Pagina %d van %d
+
+comments:
+  no_js: Schakel JavaScript in om de reacties te bekijken.

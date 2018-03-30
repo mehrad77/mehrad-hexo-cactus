@@ -1,8 +1,8 @@
 # Cactus
 
-A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal website.
+A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal website customized for [@mehrad77](https://mehrad77.github.io). based on [Real Cactus](https://github.com/probberechts/hexo-theme-cactus).
 
-:cactus: [Demo](https://probberechts.github.io/hexo-theme-cactus/)
+:cactus: [Demo](https://mehrad77.github.io/en)
 
 ![screenshot](https://docs.google.com/uc?id=1K66bccwr4z9TgJev0AzCqbI7BxzVr7md)
 

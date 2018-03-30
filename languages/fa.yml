@@ -1,0 +1,38 @@
+nav:
+  home: خانه
+  about: درباره
+  articles: نوشته‌ها
+  projects: پروژه‌ها
+  search: جست‌و‌جو
+
+footer:
+  copyright: کپی‌لفت
+
+index:
+  find_me_on: دنبالم کنید
+  enum_comma: ','
+  enum_and: و
+  articles: نوشته‌ها
+  projects: پروژه‌ها
+
+post:
+  desktop:
+    previous: نوشته پیشین
+    next: نوشته بعدی
+    back_to_top: بازگشت به بالا
+    share: اشتراک‌گذاری
+  mobile:
+    menu: فهرست
+    toc: محتوا
+    back_to_top: بالا
+    share: اشتراک
+
+search:
+  search: جست‌وجو...
+  no_results: نتیجه‌ای یافت نشد.
+
+pagination:
+  page: برگه %d از %d
+
+comments:
+  no_js: برای مشاهده دیدگاه‌ها لطفا جاوااسکریپت را فعال کنید.
