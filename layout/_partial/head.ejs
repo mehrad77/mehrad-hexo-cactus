@@ -46,4 +46,7 @@
     <% if (theme.rss) { %>
       <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml" />
     <% } %>
+    <% if (is_post() && config.generator_amp){ %>
+      <link rel="amphtml" href="<%= config.url %><%= config.root %><%= page.path %>amp/index.html">
+    <% } %>
 </head>
