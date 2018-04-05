@@ -7,7 +7,7 @@
       </span>
       <%- partial('_partial/post/date', { post: page, class_name: 'postdate' }) %>
       <%- partial('_partial/post/tag') %>
-      <%- readingTime(page.content, 'دقیقه') %>
+      <div class="article-tag"> <%- readingTime(page.content, config.mehrad.minutes) %></div>
     </div>
     <% if (page.featured_image){ %>
       <img src="<%- page.featured_image %>">
@@ -19,3 +19,7 @@
   </div>
 </article>
 <%- partial('_partial/comments') %>
+<%-
+popular_posts( {} , page )
+%>
+<strong><%- config.mehrad.also_see %></strong>
