@@ -9,12 +9,15 @@
       <%- partial('_partial/post/tag') %>
       <div class="article-tag"> <%- readingTime(page.content, config.mehrad.minutes) %></div>
     </div>
-    <% if (page.featured_image){ %>
-      <img src="<%- page.featured_image %>">
-    <% } %>
   </header>
   <%- partial('_partial/post/gallery') %>
   <div class="content" itemprop="articleBody">
+      <% if (page.featured_image){ %>
+        <div class="featured-image-wrapper" style="height: 650px;position: relative;">
+          <div class="background-image"></div>
+          <img class="featured-image" src="<%- page.featured_image %>">
+        </div>
+      <% } %>
     <%- page.content %>
   </div>
 </article>
@@ -23,3 +26,43 @@
 popular_posts( {} , page )
 %>
 <strong><%- config.mehrad.also_see %></strong>
+<style>
+  .background-image {
+    background-image: url('<%- page.featured_image %>');
+    background-size: cover;
+    display: block;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 600px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    -webkit-animation: filter-animation 10s infinite;
+  }
+  .featured-image{
+    background: rgba(255, 255, 255, 0.35);
+    max-height: 500px;
+    max-width: 90%;
+    left: 20%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top:50px;
+    z-index: 2;
+  }
+
+@-webkit-keyframes filter-animation {
+  0% {
+    -webkit-filter: sepia(0) hue-rotate(180deg) blur(3px) grayscale(0.5);
+  }
+  
+  50% {
+    -webkit-filter: sepia(1) hue-rotate(0deg) blur(3px) grayscale(0.5);
+  }
+  
+  100% {
+    -webkit-filter: sepia(0) hue-rotate(180deg) blur(3px) grayscale(0.5);
+  }
+}
+</style>
